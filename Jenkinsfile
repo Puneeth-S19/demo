@@ -6,4 +6,6 @@ pipeline {
                sh  touch demo.py
             }
         }
+ }
+}
 
