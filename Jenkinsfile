@@ -7,13 +7,13 @@ pipeline {
             }
         }
  }
- stages ('text'){
-        stage('build') {
+
+        stage('test') {
             steps {
                sh  'python3 text.py'
             }
         }
      
  }
-}
+
 
