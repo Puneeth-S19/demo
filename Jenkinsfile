@@ -6,6 +6,7 @@ pipeline {
                sh  'touch demo.py'
             }
         }
+ }
  stages ('text'){
         stage('build') {
             steps {
