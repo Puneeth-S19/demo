@@ -6,6 +6,13 @@ pipeline {
                sh  'touch demo.py'
             }
         }
+ stages ('text'){
+        stage('build') {
+            steps {
+               sh  'python3 text.py'
+            }
+        }
+     
  }
 }
 
