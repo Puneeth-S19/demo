@@ -7,7 +7,7 @@ pipeline {
             }
         }
 
-        stage('test') {
+        stage('test-ts') {
             steps {
                sh  'python3 text.py'
             }
