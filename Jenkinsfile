@@ -6,7 +6,6 @@ pipeline {
                sh  'touch demo.py'
             }
         }
- }
 
         stage('test') {
             steps {
@@ -16,4 +15,4 @@ pipeline {
      
  }
 
-
+}
